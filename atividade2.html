@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Materiais</title>
+</head>
+<body>
+    <fieldset>
+        <h4>Cadastro de novos materiais de aula</h4>
+        <fieldset>
+            <legend>Lista de materiais já cadastrados</legend>
+            <br>
+            <label>1. Lápis</label>
+            <br>
+            <label>2. Caneta</label>
+            <br>
+            <label>3. Papel</label>
+            <br>
+            <label>4. Tesoura</label>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Cadastrar novo material</legend>
+            <input type="text" name="nome" placeholder="Nome">
+            <br>
+            <input type="text" name="preco" placeholder="Preço">
+            <br>
+            <label>Quantidade</label>
+            <input type="number" min="0" max="100">
+            <br>
+            <label>Devoulução: </label>
+            <input type="radio" name="devolucao">Sim
+            <input type="radio" name="devolucao">Não
+            <br>
+            <input type="reset" value="Limpar">
+            <input type="submit"value="Cadastrar">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados do último material cadastrado</legend>
+            <table border="1">
+                <tr>
+                    <th>Nome</th>
+                    <td>Lápis</td>
+                </tr>
+                <tr>
+                    <th>Preço</th>
+                    <td>R$ 12,30</td>
+                </tr>
+                <tr>
+                    <th>Quantidade</th>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th>Devolução</th>
+                    <td>Sim</td>
+                </tr>
+            </table>
+        </fieldset>
+
+    </fieldset>
+</body>
+</html>
