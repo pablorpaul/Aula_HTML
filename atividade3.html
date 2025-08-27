@@ -7,9 +7,10 @@
 </head>
 <body>
     <fieldset>
-        <caption><div style="font-size: small; background-color: green;">SISTEMA DE GESTÃO ACADEMICA</div></caption>
-        <div style="font-weight: bold;">MANUTENÇÃO DE USUARIOS DO SISTEMA INTERNO</div>
-        <table>
+        <caption><div style="font-size: 80%; background-color: green;">SISTEMA DE GESTÃO ACADEMICA</div></caption>
+        <div style="font-weight: bold; font-size: 90%;">MANUTENÇÃO DE USUARIOS DO SISTEMA INTERNO</div>
+        <br>
+        <table style="text-align: left;">
             <tr>
                 <th>Login</th>
                 <td><input type="text"></td>
@@ -36,8 +37,8 @@
                 </td>
             </tr>
             <tr>
-                <th>Data de Criação</th>
-                <td><input type="text"></td>
+                <th>Data Criação</th>
+                <td><input type="date"></td>
             </tr>
             <tr>
                 <th>Perfil</th>
@@ -45,6 +46,27 @@
                     <input type="radio" name="perfil">Convidado
                     <input type="radio" name="perfil">Administrador
                 </td>
+            </tr>
+            <tr>
+                <th>Observações</th>
+                <td><textarea cols="25" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <th>Módulo</th>
+                <td>
+                    <input type="checkbox" name="modulos">Compras
+                    <input type="checkbox" name="modulos">Biblioteca
+                    <input type="checkbox" name="modulos">Acadêmico<br><br>
+                    <input type="checkbox" name="modulos">Documentação
+                    <input type="checkbox" name="modulos">Recursos Humanos
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <br>
+                    <input type="submit" value="Cadastrar">
+                    <input type="reset" value="Excluir">
+                </th>
             </tr>
         </table>
     </fieldset>
