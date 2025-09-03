@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!--CSS externo-->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asimovian&display=swap" rel="stylesheet">
+    <!--CSS externo-->
+    <style>
+        * {
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        h1{
+            color: blue;
+        }
+
+        p{
+            color: green;
+        }
+        #titulo{
+            background-color: aqua;
+        }
+
+        .titulo2{
+            background-color: blueviolet;
+        }
+
+        .paragrafo{
+            background-color: red;
+        }
+
+        #paragrafo{
+            background-color: blue;
+        }
+
+        body{
+            background-image: url("images/cachorro.png");
+            background-repeat: no-repeat;
+        }
+        .asimovian-regular {
+            font-family: "Asimovian", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- inline -->
+    <h1 style="color: red;font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif;">CSS - Cascading Style Sheets</h1>
+    <!-- interno -->
+    <h1>Primeira aula de CSS</h1>
+    <p id="titulo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A distinctio accusamus aut unde, velit quaerat porro, cumque officia atque soluta quis esse et autem deleniti sunt est, nesciunt rem illum!</p>
+    <!-- externo-->
+    <h1>Primeira aula de CSS</h1>
+    <p class="titulo2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A distinctio accusamus aut unde, velit quaerat porro, cumque officia atque soluta quis esse et autem deleniti sunt est, nesciunt rem illum!</p>
+    <p class="asimovian-regular"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A distinctio accusamus aut unde, velit quaerat porro, cumque officia atque soluta quis esse et autem deleniti sunt est, nesciunt rem illum!</p>
+    <p class="asimovian-regular">Especificidade do CSS</p>
+</body>
+</html>
