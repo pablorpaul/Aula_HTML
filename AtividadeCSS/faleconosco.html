@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+</head>
+<style>
+  fieldset{
+    background: linear-gradient(to bottom, #d0f0d0, #a8dba8);
+    width: 400px;
+    border: 2px solid #90c090;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+  }
+  legend{
+    border: 2px solid #90c090;
+    background-color: #ce97b7;
+    color: #921f64;
+  }
+  label {
+    width: 50px;
+    display: block;
+    font-weight: bold;
+    color: #2f6627;
+    margin-top: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 90%;
+    background: #ffe0ff;
+    border: 1px solid #c0a0c0;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 4px;
+    font-size: 14px;
+    resize: vertical;
+  }
+  textarea {
+    height: 80px;
+  }
+  button {
+    margin-top: 12px;
+    background: #ffe0ff;
+    border: 1px solid #c0a0c0;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+</style>
+<body>
+    <div class="container">
+        <fieldset>
+            <legend>Fale Conosco</legend>
+            <label>Nome:</label>
+            <input type="text" name="nome">
+            <label>E-mail</label>
+            <input type="text" name="email">
+            <label>Mensagem:</label>
+            <textarea></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+* {
+    color: #20912f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    align-items: baseline;
+}
+
+input {
+    align-items: center;
+}

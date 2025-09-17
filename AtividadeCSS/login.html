@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login</title>
+  <style>
+    body {
+      background-color: #343b56;
+      font-family: Arial, sans-serif;
+      color: #c6c6c6;
+      padding: 50px;
+    }
+    .container {
+      width: 320px;
+    }
+    h1 {
+      font-weight: bold;
+      text-decoration: underline;
+      margin-bottom: 40px;
+      font-size: 24px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #b6b6b6;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #c6c6c6;
+      background: transparent;
+      padding: 8px 0;
+      margin-bottom: 30px;
+      color: #c6c6c6;
+      font-size: 16px;
+      outline: none;
+    }
+    input::placeholder {
+      color: #c6c6c6;
+    }
+    button {
+      width: 100%;
+      background-color: #a8324f;
+      border: none;
+      color: #c6c6c6;
+      padding: 12px 0;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+    .esqueceu-senha {
+      text-align: center;
+      font-size: 14px;
+      color: #c6c6c6;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form>
+      <label for="username">Usuário</label>
+      <input type="text" id="username" name="username" placeholder="Usuário" />
+      
+      <label for="password">Senha</label>
+      <input type="password" id="password" name="password" placeholder="Senha" />
+      
+      <button type="submit">login</button>
+    </form>
+    <div class="esqueceu-senha">Esqueceu a senha?</div>
+  </div>
+</body>
+</html>
